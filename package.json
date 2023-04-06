@@ -1,0 +1,21 @@
+{
+	"name": "@abrahamxts/mf",
+	"author": "Abraham Espinosa",
+	"keywords": [
+		"Micro-frontend",
+		"Starter",
+		"React",
+		"Vite"
+	],
+	"private": true,
+	"version": "1.0.0",
+	"description": "Micro-frontend Starter",
+	"scripts": {
+		"build": "pnpm --parallel --filter \"./**\" build",
+		"serve": "pnpm --parallel --filter \"./**\" serve",
+		"stop": "kill-port --port 5000,5001"
+	},
+	"devDependencies": {
+		"kill-port": "^2.0.1"
+	}
+}
