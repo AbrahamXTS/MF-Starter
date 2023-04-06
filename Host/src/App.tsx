@@ -1,5 +1,5 @@
 // @ts-ignore
-import Remote from "remote/Remote";
+import { Remote } from "remote/Remote";
 
 function App() {
 	return (
